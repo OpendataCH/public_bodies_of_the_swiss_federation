@@ -1,24 +1,25 @@
 <?php
 require 'scraperwiki.php';
+require 'scraperwiki/simple_html_dom.php';
 
 // JUST AN EXPERIMENT, JUST A BEGINNING
 // Connected to https://github.com/okfn/publicbodies
 
 define('BASE_URL', 'http://www.staatskalender.admin.ch/');
-
-require 'scraperwiki/simple_html_dom.php';
 date_default_timezone_set('UTC');
-scraperwiki::sqliteexecute('CREATE TABLE IF NOT EXISTS swdata (created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP)');
+
+// sqliteexecute not currently supported on Morph.io
+// scraperwiki::sqliteexecute('CREATE TABLE IF NOT EXISTS swdata (created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP)');
 
 // First level of hierarchy
-foreach (getHTML(BASE_URL . 'welcome.html')->find('a.navLevel2') as $el) {   
-    
+foreach (getHTML(BASE_URL . 'welcome.html')->find('a.navLevel2') as $el) {
+
     $entity = array(
         'title' => $el->title,
         'source_url' => BASE_URL . str_replace(' ', '+', $el->href)
     );
 
-    create($entity);   
+    create($entity);
 }
 
 // Get children of an entity
@@ -49,13 +50,13 @@ function create($entity) {
     // Generate key
     $entity['key'] = 'ch/' . makeSlug($entity['title']);
 
-    // Extract email 
+    // Extract email
     $emailLink = $html->find('table.tabelleESK a[href^=mailto:]', 0);
     if($emailLink) {
         $entity['email'] = str_replace('mailto:', '', trim($emailLink->href));
     }
-  
-    // Extract URL 
+
+    // Extract URL
     foreach($html->find('table.tabelleESK tr') as $row) {
         $name = trim($row->children(0)->innertext);
 
@@ -69,7 +70,7 @@ function create($entity) {
                 // Ugly case: URL but no link
                 if($i && !$cell->children()) {
                     $entity['url'] = $cell->innertext;
-                    break; 
+                    break;
                 }
             }
         }
@@ -82,7 +83,7 @@ function create($entity) {
         $orgTitleParts = explode('-', $orgTitle->innertext);
         if(count($orgTitleParts) > 1) {
             $entity['abbr'] = trim(array_pop($orgTitleParts));
-            $entity['abbr'] = html_entity_decode($entity['abbr'], ENT_COMPAT, 'UTF-8');  
+            $entity['abbr'] = html_entity_decode($entity['abbr'], ENT_COMPAT, 'UTF-8');
         }
     } else {
         error_log('No title on ' + $entity['source_url']);
@@ -111,19 +112,22 @@ function save($entity) {
     $entity['source_description'] = 'Federal-level entities of the Swiss government';
     $entity['category'] = 'Federal';
 
+    // Suboptimal, temporary workaround for missing auto-timestamp / sqliteexecute (see above).
+    $entity['created_at'] = $entity['updated_at'];
+
     if(!isset($entity['url'])) {
         $entity['url'] = $entity['source_url'];
     }
-  
+
     return @scraperwiki::save_sqlite(array('key'), $entity);
 }
 
 // Create an URL-friendly identifier
 function makeSlug($str) {
-    return 
-        preg_replace('/\W+/', '-', 
+    return
+        preg_replace('/\W+/', '-',
             strtr(
-                strtolower(trim($str)), 
+                strtolower(trim($str)),
                 array('ä' => 'ae', 'ö' => 'oe', 'ü' => 'ue', 'à' => 'a', 'è' => 'e', 'é' => 'e') // no iconv locales on Scraperwiki ..?
             )
         );
