@@ -1,0 +1,1 @@
+An attempt to extract data about Swiss federal entities for "publicbodies.org":http://publicbodies.org.
