@@ -1,4 +1,5 @@
 <?php
+require 'scraperwiki.php';
 
 // JUST AN EXPERIMENT, JUST A BEGINNING
 // Connected to https://github.com/okfn/publicbodies
