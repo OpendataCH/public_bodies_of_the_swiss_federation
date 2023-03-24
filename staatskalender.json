@@ -1,0 +1,852 @@
+{
+	"items": [
+		{
+			"id": "10000000",
+			"label": {
+				"german": "Bundesrat",
+				"french": "Conseil fédéral",
+				"italian": "Consiglio federale",
+				"english": ""
+			},
+			"items": []
+		},
+		{
+			"id": "10000025",
+			"label": {
+				"german": "Bundeskanzlei",
+				"french": "Chancellerie fédérale",
+				"italian": "Cancelleria federale",
+				"english": ""
+			},
+			"items": [
+				{
+					"id": "20019927",
+					"label": {
+						"german": "Stab Bundeskanzler",
+						"french": "Etat-major du Chancelier",
+						"italian": "Stato maggiore dei Cancelliere",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10010826",
+					"label": {
+						"german": "Bereich Ressourcen",
+						"french": "Secteur Ressources",
+						"italian": "Settore Risorse",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10010833",
+					"label": {
+						"german": "Bereich Bundeskanzler",
+						"french": "Secteur Chancelier de la Confédération",
+						"italian": "Settore Cancelliere della Confederazione",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10002674",
+					"label": {
+						"german": "Bereich Bundesrat",
+						"french": "Secteur Conseil fédéral",
+						"italian": "Settore Consiglio federale",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10002695",
+					"label": {
+						"german": "Bereich Kommunikation und Strategie",
+						"french": "Secteur communication et stratégie",
+						"italian": "Settore comunicazione e strategia",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "20048177",
+					"label": {
+						"german": "Bereich Digitale Transformation und IKT-Lenkung",
+						"french": "Secteur Transformation numérique et gouvernance de l’informatique",
+						"italian": "Settore Trasformazione digitale e governance delle TIC",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10002693",
+					"label": {
+						"german": "Eidgenössischer Datenschutz- und Öffentlichkeitsbeauftragter",
+						"french": "Préposé fédéral à la protection des données et à la transparence",
+						"italian": "Incaricato federale della protezione dei dati e della trasparenza",
+						"english": "EDÖB"
+					},
+					"items": []
+				}
+			]
+		},
+		{
+			"id": "10000028",
+			"label": {
+				"german": "Eidgenössisches Departement für auswärtige Angelegenheiten",
+				"french": "Département fédéral des affaires étrangères",
+				"italian": "Dipartimento federale degli affari esteri",
+				"english": "Federal Department of Foreign Affairs"
+			},
+			"items": [
+				{
+					"id": "10000530",
+					"label": {
+						"german": "Generalsekretariat EDA",
+						"french": "Secrétariat général DFAE",
+						"italian": "Segreteria generale DFAE",
+						"english": "FDFA General Secretariat"
+					},
+					"items": []
+				},
+				{
+					"id": "20003168",
+					"label": {
+						"german": "Staatssekretariat EDA",
+						"french": "Secrétariat d'Etat DFAE",
+						"italian": "Segreteria di Stato DFAE",
+						"english": "FDFA State Secretariat"
+					},
+					"items": []
+				},
+				{
+					"id": "20028753",
+					"label": {
+						"german": "Konsularische Direktion",
+						"french": "Direction consulaire",
+						"italian": "Direzione consolare",
+						"english": "Consular Directorate"
+					},
+					"items": []
+				},
+				{
+					"id": "10000532",
+					"label": {
+						"german": "Direktion für Völkerrecht",
+						"french": "Direction du droit international public",
+						"italian": "Direzione del diritto internazionale pubblico",
+						"english": "Directorate of International Law"
+					},
+					"items": []
+				},
+				{
+					"id": "10000544",
+					"label": {
+						"german": "Direktion für Ressourcen",
+						"french": "Direction des ressources",
+						"italian": "Direzione delle risorse",
+						"english": "Directorate for Resources"
+					},
+					"items": []
+				},
+				{
+					"id": "10000572",
+					"label": {
+						"german": "Direktion für Entwicklung und Zusammenarbeit",
+						"french": "Direction du développement et de la coopération",
+						"italian": "Direzione dello sviluppo e della cooperazione",
+						"english": "Swiss Agency for Development and Cooperation"
+					},
+					"items": []
+				}
+			]
+		},
+		{
+			"id": "10000029",
+			"label": {
+				"german": "Eidgenössisches Departement des Innern",
+				"french": "Département fédéral de l'intérieur",
+				"italian": "Dipartimento federale dell'interno",
+				"english": ""
+			},
+			"items": [
+				{
+					"id": "10008740",
+					"label": {
+						"german": "Generalsekretariat",
+						"french": "Secrétariat général",
+						"italian": "Segreteria generale",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10002215",
+					"label": {
+						"german": "Eidgenössisches Büro für die Gleichstellung von Frau und Mann",
+						"french": "Bureau fédéral de l'égalité entre femmes et hommes",
+						"italian": "Ufficio federale per l'uguaglianza fra donna e uomo",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10008736",
+					"label": {
+						"german": "Bundesamt für Kultur",
+						"french": "Office fédéral de la culture",
+						"italian": "Ufficio federale della cultura",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10008653",
+					"label": {
+						"german": "Schweizerisches Bundesarchiv",
+						"french": "Archives fédérales suisses",
+						"italian": "Archivio federale svizzero",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10008683",
+					"label": {
+						"german": "Bundesamt für Meteorologie und Klimatologie MeteoSchweiz",
+						"french": "Office fédéral de météorologie et de climatologie MétéoSuisse",
+						"italian": "Ufficio federale di meteorologia e climatologia",
+						"english": "MeteoSchweiz"
+					},
+					"items": []
+				},
+				{
+					"id": "10008684",
+					"label": {
+						"german": "Bundesamt für Gesundheit",
+						"french": "Office fédéral de la santé publique",
+						"italian": "Ufficio federale della sanità pubblica",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10008742",
+					"label": {
+						"german": "Bundesamt für Statistik",
+						"french": "Office fédéral de la statistique",
+						"italian": "Ufficio federale di statistica",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10008685",
+					"label": {
+						"german": "Bundesamt für Sozialversicherungen",
+						"french": "Office fédéral des assurances sociales",
+						"italian": "Ufficio federale delle assicurazioni sociali",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10008671",
+					"label": {
+						"german": "Bundesamt für Lebensmittelsicherheit und Veterinärwesen",
+						"french": "Office fédéral de la sécurité alimentaire et des affaires vétérinaires",
+						"italian": "Ufficio federale della sicurezza alimentare e di veterinaria",
+						"english": "Federal Food Safety and Veterinary"
+					},
+					"items": []
+				},
+				{
+					"id": "30000028@10.03",
+					"label": {
+						"german": "Swissmedic",
+						"french": "Swissmedic",
+						"italian": "Swissmedic",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "12050100@12.05",
+					"label": {
+						"german": "Schweizer Kulturstiftung Pro Helvetia",
+						"french": "Fondation suisse pour la culture Pro Helvetia",
+						"italian": "Fondazione svizzera per la cultura Pro Helvetia",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "12040100@12.04",
+					"label": {
+						"german": "Schweizerisches Nationalmuseum",
+						"french": "Musée National Suisse",
+						"italian": "Museo Nazionale Svizzero",
+						"english": ""
+					},
+					"items": []
+				}
+			]
+		},
+		{
+			"id": "10000030",
+			"label": {
+				"german": "Eidgenössisches Justiz- und Polizeidepartement",
+				"french": "Département fédéral de justice et police",
+				"italian": "Dipartimento federale di giustizia e polizia",
+				"english": ""
+			},
+			"items": [
+				{
+					"id": "10008843",
+					"label": {
+						"german": "Generalsekretariat EJPD",
+						"french": "Secrétariat général SG-DFJP",
+						"italian": "Segreteria generale SG-DFGP",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10008744",
+					"label": {
+						"german": "Bundesamt für Justiz",
+						"french": "Office fédéral de la justice",
+						"italian": "Ufficio federale di giustizia",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10009184",
+					"label": {
+						"german": "Bundesamt für Polizei",
+						"french": "Office fédéral de la Police",
+						"italian": "Ufficio federale di polizia",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10008750",
+					"label": {
+						"german": "Schweizerisches Institut für Rechtsvergleichung",
+						"french": "Institut suisse de droit comparé",
+						"italian": "Istituto svizzero di diritto comparato",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "20008576",
+					"label": {
+						"german": "Staatssekretariat für Migration",
+						"french": "Secrétariat d'Etat aux migrations",
+						"italian": "Segreteria di Stato della migrazione",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10009470",
+					"label": {
+						"german": "Informatik Service Center ISC-EJPD",
+						"french": "Centre de services informatiques CSI-DFJP",
+						"italian": "Centro servizi informatici CSI-DFGP",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10009488",
+					"label": {
+						"german": "Eidgenössische Spielbankenkommission",
+						"french": "Commission fédérale des maisons de jeu",
+						"italian": "Commissione federale delle case da gioco",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "50000000@12.03",
+					"label": {
+						"german": "Eidgenössisches Institut für Metrologie",
+						"french": "Eidgenössisches Institut für Metrologie",
+						"italian": "Eidgenössisches Institut für Metrologie",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "12060100@12.06",
+					"label": {
+						"german": "Eidgenössisches Institut für Geistiges Eigentum",
+						"french": "Institut Fédéral de la Propriété Intellectuelle",
+						"italian": "Istituto Federale della Proprietà Intellettuale",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "46@11.07",
+					"label": {
+						"german": "Revisionsaufsichtsbehörde",
+						"french": "Revisionsaufsichtsbehörde",
+						"italian": "Revisionsaufsichtsbehörde",
+						"english": ""
+					},
+					"items": []
+				}
+			]
+		},
+		{
+			"id": "10000001",
+			"label": {
+				"german": "Eidgenössisches Departement für Verteidigung, Bevölkerungsschutz und Sport",
+				"french": "Département fédéral de la défense, de la protection de la population et des sports",
+				"italian": "Dipartimento federale della difesa, della protezione della popolazione e dello sport",
+				"english": ""
+			},
+			"items": [
+				{
+					"id": "10008884",
+					"label": {
+						"german": "Generalsekretariat VBS",
+						"french": "Secrétariat général DDPS",
+						"italian": "Segreteria generale DDPS",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "20043376",
+					"label": {
+						"german": "Unabhängige Aufsichtsbehörde über die nachrichtendienstlichen Tätigkeiten",
+						"french": "Autorité de surveillance indépendante des activités de renseignement",
+						"italian": "Autorità di vigilanza indipendente sulle attività informative",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "20027226",
+					"label": {
+						"german": "Nachrichtendienst des Bundes",
+						"french": "Service de renseignement de la Confédération",
+						"italian": "Servizio delle attività informative della Confederazione",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "20004643",
+					"label": {
+						"german": "Verteidigung",
+						"french": "Défense",
+						"italian": "Difesa",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "20005536",
+					"label": {
+						"german": "Bundesamt für Rüstung - armasuisse",
+						"french": "Office fédéral de l'armement-armasuisse",
+						"italian": "Ufficio fed. dell'armamento - armasuisse",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10003466",
+					"label": {
+						"german": "Bundesamt für Landestopografie swisstopo",
+						"french": "Office fédéral de topographie swisstopo",
+						"italian": "Ufficio federale di topografia swisstopo",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10008679",
+					"label": {
+						"german": "Bundesamt für Bevölkerungsschutz",
+						"french": "Office fédéral de la protection de la population",
+						"italian": "Ufficio federale della protezione della popolazione",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10008678",
+					"label": {
+						"german": "Bundesamt für Sport",
+						"french": "Office fédéral du sport",
+						"italian": "Ufficio federale dello sport",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "60028959@11.05",
+					"label": {
+						"german": "BGRB Holding AG",
+						"french": "BGRB Holding AG",
+						"italian": "BGRB Holding AG",
+						"english": ""
+					},
+					"items": []
+				}
+			]
+		},
+		{
+			"id": "10000031",
+			"label": {
+				"german": "Eidgenössisches Finanzdepartement",
+				"french": "Département fédéral des finances",
+				"italian": "Dipartimento federale delle finanze",
+				"english": ""
+			},
+			"items": [
+				{
+					"id": "10008603",
+					"label": {
+						"german": "Generalsekretariat EFD",
+						"french": "Secrétariat général DFF",
+						"italian": "Segreteria generale DFF",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "20025051",
+					"label": {
+						"german": "Staatssekretariat für internationale Finanzfragen",
+						"french": "Secrétariat d'Etat aux questions financières internationales",
+						"italian": "Segreteria di Stato per le questioni finanziarie internazionali",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10008657",
+					"label": {
+						"german": "Eidgenössische Finanzverwaltung",
+						"french": "Administration fédérale des finances",
+						"italian": "Amministrazione federale delle finanze",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10000034",
+					"label": {
+						"german": "Eidgenössisches Personalamt",
+						"french": "Office fédéral du personnel",
+						"italian": "Ufficio federale del personale",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10008668",
+					"label": {
+						"german": "Eidgenössische Steuerverwaltung",
+						"french": "Administration fédérale des contributions",
+						"italian": "Amministrazione federale delle contribuzioni",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10008659",
+					"label": {
+						"german": "Bundesamt für Zoll und Grenzsicherheit",
+						"french": "Office fédéral de la douane et de la sécurité des frontières",
+						"italian": "Ufficio federale della dogana e della sicurezza dei confini",
+						"english": "Federal Office for Customs and Border Security"
+					},
+					"items": []
+				},
+				{
+					"id": "10008669",
+					"label": {
+						"german": "Bundesamt für Informatik und Telekommunikation",
+						"french": "Bundesamt für Informatik und Telekommunikation",
+						"italian": "Bundesamt für Informatik und Telekommunikation",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10008670",
+					"label": {
+						"german": "Bundesamt für Bauten und Logistik",
+						"french": "Office fédéral des constructions et de la logistique",
+						"italian": "Ufficio federale delle costruzioni e della logistica",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10008752",
+					"label": {
+						"german": "Eidgenössische Finanzkontrolle",
+						"french": "Contrôle fédéral des finances",
+						"italian": "Controllo federale delle finanze",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "20034128@12.02",
+					"label": {
+						"german": "Eidgenössische Finanzmarktaufsicht",
+						"french": "Autorité fédérale de surveillance des marchés financiers",
+						"italian": "Autorità federale di vigilanza sui mercati finanziari",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10@11.02",
+					"label": {
+						"german": "Pensionskasse PUBLICA",
+						"french": "Pensionskasse PUBLICA",
+						"italian": "Pensionskasse PUBLICA",
+						"english": ""
+					},
+					"items": []
+				}
+			]
+		},
+		{
+			"id": "10000032",
+			"label": {
+				"german": "Eidgenössisches Departement für Wirtschaft, Bildung und Forschung",
+				"french": "Département fédéral de l'économie, de la formation et de la recherche",
+				"italian": "Dipartimento federale dell'economia, della formazione e della ricerca",
+				"english": ""
+			},
+			"items": [
+				{
+					"id": "10002651",
+					"label": {
+						"german": "Generalsekretariat WBF",
+						"french": "Secrétariat général du DEFR",
+						"italian": "Segreteria generale DEFR",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10008856",
+					"label": {
+						"german": "Staatssekretariat für Wirtschaft",
+						"french": "Secrétariat d'Etat à l'économie",
+						"italian": "Segreteria di Stato dell'economia",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "20033802",
+					"label": {
+						"german": "Staatssekretariat für Bildung, Forschung und Innovation",
+						"french": "Secrétariat d'Etat à la formation, à la recherche et à l'innovation",
+						"italian": "Segreteria di Stato per la formazione, la ricerca e l'innovazione",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10008654",
+					"label": {
+						"german": "Bundesamt für Landwirtschaft",
+						"french": "Office fédéral de l'agriculture",
+						"italian": "Ufficio federale dell'agricoltura",
+						"english": "Bundesamt für Landwirtschaft"
+					},
+					"items": []
+				},
+				{
+					"id": "10008673",
+					"label": {
+						"german": "Bundesamt für wirtschaftliche Landesversorgung",
+						"french": "Office fédéral pour l'approvisionnement économique du pays",
+						"italian": "Ufficio federale per l'approvvigionamento economico del Paese",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10008656",
+					"label": {
+						"german": "Bundesamt für Zivildienst",
+						"french": "Office fédéral du service civil",
+						"italian": "Ufficio federale del servizio civile",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10008674",
+					"label": {
+						"german": "Bundesamt für Wohnungswesen",
+						"french": "Office fédéral du logement",
+						"italian": "Ufficio federale delle abitazioni",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10008676",
+					"label": {
+						"german": "Wettbewerbskommission",
+						"french": "Commission de la concurrence",
+						"italian": "Commissione della concorrenza",
+						"english": "Wettbewerbskommission"
+					},
+					"items": []
+				},
+				{
+					"id": "20035551@10.05",
+					"label": {
+						"german": "Innosuisse",
+						"french": "Innosuisse",
+						"italian": "Innosuisse",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "12090100@12.09",
+					"label": {
+						"german": "Eidgenössische Hochschule für Berufsbildung",
+						"french": "Haute école fédérale en formation professionnelle",
+						"italian": "Scuola universitaria federale per la formazione professionale",
+						"english": ""
+					},
+					"items": []
+				}
+			]
+		},
+		{
+			"id": "10000033",
+			"label": {
+				"german": "Eidgenössisches Departement für Umwelt, Verkehr, Energie und Kommunikation",
+				"french": "Département fédéral de l'environnement, des transports, de l'énergie et de la communication",
+				"italian": "Dipartimento federale dell'ambiente, dei trasporti, dell'energia e delle comunicazioni",
+				"english": ""
+			},
+			"items": [
+				{
+					"id": "10008848",
+					"label": {
+						"german": "Generalsekretariat UVEK",
+						"french": "Secrétariat général DETEC",
+						"italian": "Segreteria generale DATEC",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10008753",
+					"label": {
+						"german": "Bundesamt für Verkehr",
+						"french": "Office fédéral des transports",
+						"italian": "Ufficio federale dei trasporti",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10008754",
+					"label": {
+						"german": "Bundesamt für Zivilluftfahrt",
+						"french": "Office fédéral de l'aviation civile",
+						"italian": "Ufficio federale dell'aviazione civile",
+						"english": "Bundesamt für Zivilluftfahrt"
+					},
+					"items": []
+				},
+				{
+					"id": "20004794",
+					"label": {
+						"german": "Bundesamt für Energie",
+						"french": "Office fédéral de l'énergie",
+						"italian": "Ufficio federale dell'energia",
+						"english": "Bundesamt für Energie"
+					},
+					"items": []
+				},
+				{
+					"id": "10008759",
+					"label": {
+						"german": "Bundesamt für Strassen",
+						"french": "Office fédéral des routes",
+						"italian": "Ufficio federale delle strade",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10008757",
+					"label": {
+						"german": "Bundesamt für Kommunikation",
+						"french": "Office fédéral de la communication",
+						"italian": "Ufficio federale delle comunicazioni",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10008758",
+					"label": {
+						"german": "Bundesamt für Umwelt BAFU",
+						"french": "Office fédéral de l'environnement OFEV",
+						"italian": "Ufficio federale dell'ambiente UFAM",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "10009450",
+					"label": {
+						"german": "Bundesamt für Raumentwicklung",
+						"french": "Office fédéral du développement territorial",
+						"italian": "Ufficio federale dello sviluppo territoriale",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "20030368",
+					"label": {
+						"german": "Schweizerische Sicherheitsuntersuchungsstelle",
+						"french": "Service suisse d’enquête de sécurité",
+						"italian": "Servizio d inchiesta svizzero sulla sicurezza",
+						"english": ""
+					},
+					"items": []
+				},
+				{
+					"id": "20030369",
+					"label": {
+						"german": "Regulierungsbehörden Infrastruktur",
+						"french": "Autorités de régulation des infrastructures",
+						"italian": "Autorità di regolazione delle infrastrutture",
+						"english": ""
+					},
+					"items": []
+				}
+			]
+		}
+	]
+}
